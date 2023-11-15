@@ -8,11 +8,12 @@ for (let i = 0; i <= 100; i++) {
             nuovoVincente = "FizzBuzz";
             Num100.push(nuovoVincente);
             }
-    else{
+        else{
         let nuovoVincente = "fizz";
         Num100.push(nuovoVincente);
+        }
     }
-    }
+    else{
     if(i % 5 == 0){
     nuovoVincente = "buzz";
     Num100.push(nuovoVincente);
@@ -20,6 +21,7 @@ for (let i = 0; i <= 100; i++) {
     else{
     nuovoVincente = i;
     Num100.push(nuovoVincente);
+        }
     }
 }
 

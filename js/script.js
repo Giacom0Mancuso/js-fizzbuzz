@@ -1,8 +1,8 @@
 
 
-let Num100 = [100];
+let Num100 = [];
 
-for (let i = 0; i <= Num100.length; i++) {
+for (let i = 0; i <= 100; i++) {
     if(i % 3 == 0){
         if(i % 5 == 0){
             nuovoVincente = "FizzBuzz";
